@@ -4,11 +4,13 @@
 
 - [Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
 - Defined more by what it isn't than what exactly it is
+- It's a **Family** of databases; there is no "NoSQL Standard"
 - **Non-Relational**
 - **No Referential Integrity**
 - Doesn't support **ANSI SQL Standards**, but may offer "SQL-like" syntaxes
 - **Less support for Transactions**
 - **Schemaless** or simplified schema
+- Often [JSON](https://en.wikipedia.org/wiki/JSON) document-oriented
 
 ## Reasons NoSQL Databases arose?
 
