@@ -15,7 +15,7 @@
 
 - You provision a specific type of database for each CosmosDB instance
   - One CosmosDB instance does not offer all five DB types!
-  - Similar model to Azure HDInsight
+  - This is a similar model to Azure HDInsight (Spark, Hadoop, HBase, Storm, Kafka, etc.)
 
 - Programming APIs
   - SQL and Table
@@ -37,10 +37,7 @@
   - The cost to read a 1-KB item is 1.0 RU
   - Our SDKs return the cost of the DB operation in terms of RUs
   - Scale is achieved via **Partitions**
-
-- Low Latency
-  - 10ms reads, 15ms writes in 99th percentile
-  - ![bell-curve](img/bell-curve.jpg)
+  - [RU Calculator page](https://www.documentdb.com/capacityplanner)
 
 - [Five Consistency Levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
   - Strong 
@@ -48,10 +45,15 @@
   - Session
   - Consistent Prefix
   - Eventual
+  - See https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-consistency#configure-the-default-consistency-level
 
 - SLAs
   - 99.99% single-region, 99.999% multi-region
   - See https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_0/
+
+- Low Latency
+  - 10ms reads, 15ms writes in 99th percentile
+  - ![bell-curve](img/bell-curve.jpg)
 
 ## Links
 
