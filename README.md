@@ -8,18 +8,17 @@
 
 ### Overview
 
-- What is NoSQL?
-- What is CosmosDB?
+- [What is NoSQL?](what-is-nosql.md)
+- [What is CosmosDB?](what-is-cosmosdb.md)
 
 ### Demonstrations
 
-- SQL API
-- Port a MongoDB database to CosmosDB
-- Gremlin API - The Six Degrees of Kevin Bacon
+- [SQL API](sql-api-demo.md)
+- [Port a MongoDB database to CosmosDB](mongo-to-cosmosdb-demo.md)
 - [Gremlin API - The Six Degrees of Kevin Bacon](gremlin-graph-demo.md)
-- Cassandra
-- Integrate with Azure PaaS Services
-- SQL Database Design and Anti-Patterns
+- [Cassandra API](cassandra-api-demo.md)
+- [Integrate with Azure PaaS Services](integrate-paas-demo.md)
+- [SQL Database Design and Anti-Patterns](sql-db-design-demo.md)
 
 ## Afternoon Session:  1pm – 4pm
 

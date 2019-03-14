@@ -1,5 +1,2 @@
-# Azure CosmosDB Graph/Gremlin Demo
-
-"CosmosDB-in-a-Day"
-
+# Azure CosmosDB - Graph/Gremlin API Demo
 
