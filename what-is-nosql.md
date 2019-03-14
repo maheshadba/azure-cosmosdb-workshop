@@ -10,6 +10,7 @@
 - **Non-Relational**
 - **No Referential Integrity**
 - Doesn't support **ANSI SQL Standards**, but may offer "SQL-like" syntaxes
+- **Less support for Transactions**
 - **Schemaless** or simplified schema
 
 ## Reasons NoSQL Databases arose?
@@ -19,6 +20,7 @@
 - Designed to solve different problems
 - Speed of Development - schemaless
 - JavaScript resurgence, end-to-end JSON
+- [Object-Relational Impedance Mismatch](https://en.wikipedia.org/wiki/Object-relational_impedance_mismatch)
 
 ## Example NoSQL Databases
 
