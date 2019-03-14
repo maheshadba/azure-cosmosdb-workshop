@@ -1,2 +1,2 @@
-# Azure CosmosDB - Integrate Other Azure PaaS Services Demo
+# Azure CosmosDB - Integrate Other Azure PaaS Services
 

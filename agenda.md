@@ -2,6 +2,10 @@
 
 "CosmosDB-in-a-Day"
 
+![azure-cosmos-db](img/azure-cosmos-db.png)
+
+---
+
 # Agenda
 
 ## Morning Session: 9am - 12pm
@@ -11,6 +15,8 @@
 - [What is NoSQL?](what-is-nosql.md)
 - [What is CosmosDB?](what-is-cosmosdb.md)
 
+---
+
 ### Demonstrations
 
 - [SQL API](sql-api-demo.md)
@@ -19,6 +25,8 @@
 - [Cassandra API](cassandra-api-demo.md)
 - [Integrate with Azure PaaS Services](integrate-paas-demo.md)
 - [SQL Database Design and Anti-Patterns](sql-db-design-demo.md)
+
+---
 
 ## Afternoon Session:  1pm – 4pm
 
