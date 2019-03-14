@@ -1,11 +1,8 @@
 # What is a NoSQL Database?
 
-## References
-
-- [Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
-
 ## Definition
 
+- [Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
 - Defined more by what it isn't than what exactly it is
 - **Non-Relational**
 - **No Referential Integrity**
