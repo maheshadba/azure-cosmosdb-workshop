@@ -2,7 +2,7 @@
 
 ![azure-cosmos-db](img/azure-cosmos-db.png)
 
-- It's a **Family of NoSQL databases** built on a common PaaS foundation 
+- It's a **Family of NoSQL PaaS databases** built on a common foundation 
 
 - Five Database Types Currently Supported
   - Microsoft:
@@ -31,21 +31,25 @@
   - Multi-Region with multiple write-regions
 
 - Elastic Scale
-  - Simply Scale the Database by number of RUs 
-  - Unit-of-measure is the [RU (Request Unit)](https://docs.microsoft.com/en-us/azure/cosmos-db/request-units)
-  - A Unit of CPU, IOPS, and Memory
-  - The cost to read a 1-KB item is 1.0 RU
-  - Our SDKs return the cost of the DB operation in terms of RUs
+  - Request Units, or **RUs**
+    - Simply Scale the Database by number of RUs 
+    - [RU is a Unit of CPU, IOPS, and Memory](https://docs.microsoft.com/en-us/azure/cosmos-db/request-units)
+    - The cost to read a 1-KB item is 1.0 RU
+    - Our SDKs return the cost of the DB operation in terms of RUs
+    - [RU Calculator page](https://www.documentdb.com/capacityplanner)
   - Scale is achieved via **Partitions**
-  - [RU Calculator page](https://www.documentdb.com/capacityplanner)
+  - Can achieve millions of reads and writes per second
 
-- [Five Consistency Levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
-  - Strong 
-  - Bounded Staleness
-  - Session
-  - Consistent Prefix
-  - Eventual
-  - See https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-consistency#configure-the-default-consistency-level
+- Consistency Levels
+  - [Five Consistency Levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
+    - Strong 
+    - Bounded Staleness
+    - Session
+    - Consistent Prefix
+    - Eventual
+    - See https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-consistency#configure-the-default-consistency-level
+  - Database-level default consistency level
+  - But can be overridden on any individual DB operation
 
 - SLAs
   - 99.99% single-region, 99.999% multi-region
@@ -59,3 +63,6 @@
 
 - https://docs.microsoft.com/en-us/azure/cosmos-db/introduction
 - https://docs.microsoft.com/en-us/azure/cosmos-db/
+- http://tinkerpop.apache.org
+- http://cassandra.apache.org
+- https://www.mongodb.com
