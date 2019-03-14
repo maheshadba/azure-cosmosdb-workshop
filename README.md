@@ -16,6 +16,7 @@
 - SQL API
 - Port a MongoDB database to CosmosDB
 - Gremlin API - The Six Degrees of Kevin Bacon
+- [Gremlin API - The Six Degrees of Kevin Bacon](gremlin-graph-demo.md)
 - Cassandra
 - Integrate with Azure PaaS Services
 - SQL Database Design and Anti-Patterns
