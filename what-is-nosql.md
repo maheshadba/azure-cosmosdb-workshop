@@ -1,4 +1,4 @@
-# What is NoSQL?
+# What is a NoSQL Database?
 
 ## References
 
@@ -29,7 +29,7 @@
 ### Document
 - Apache CouchDB
 - Couchbase
-- **Cosmos DB**
+- **CosmosDB**
 - **MongoDB**
 
 ### Key-value
