@@ -34,6 +34,8 @@
 
 ## pydocumentdb SDK in-a-nutshell
 
+See https://pypi.org/project/pydocumentdb/
+
 ```
 import pydocumentdb.document_client as document_client
 
