@@ -5,9 +5,9 @@
 - Core Concepts
   - Database
   - Collection
-  - Scale by Request Units; RUs
+  - Scale by Request Units - RUs
   - Partition Key
-  - Document; JSON, id
+  - Document - JSON, id
   - Indexing
   - Transactions
   - SDKs
@@ -33,6 +33,19 @@
 - Change Feed: https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed
 - Server Side: https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs
 - Common Use-Cases: https://docs.microsoft.com/en-us/azure/cosmos-db/use-cases
+
+## pydocumentdb SDK in-a-nutshell
+
+```
+import pydocumentdb.document_client as document_client
+
+client = document_client.DocumentClient(host, {'masterKey': key})
+client.default_headers['x-ms-documentdb-query-enablecrosspartition'] = True
+
+coll_link = ''dbs/dev/colls/map_points'
+
+client.UpsertDocument(coll_link, some_json_doc)
+```
 
 ## CosmosDB, Azure Maps, and Spatial Queries demonstration
 
