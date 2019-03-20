@@ -5,7 +5,7 @@
 - Core Concepts
   - Database
   - Collection
-  - Scale by Request Units - RUs
+  - [Scale by Request Units](https://docs.microsoft.com/en-us/azure/cosmos-db/request-units)
   - Partition Key
   - Document - JSON, id
   - Indexing
@@ -13,25 +13,23 @@
   - SDKs
 
 - Distributed Concepts
-  - Azure Regions
+  - [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
   - Replication
   - Single vs Multi-Master
 
-- Server-Side Programming
+- [Server-Side Programming](https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs)
   - Stored Procedure
   - Triggers; pre and post
   - UDF
 
 - Interesting Features
-  - Change Feed
+  - [Change Feed](https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed)
   - TTL
-  - Spatial Queries and GeoJSON
+  - [Spatial Queries and GeoJSON](https://docs.microsoft.com/en-us/azure/cosmos-db/geospatial)
+  - [Pooled RUs](https://docs.microsoft.com/en-us/azure/cosmos-db/set-throughput)
 
 ## Links
 
-- Request Units: https://docs.microsoft.com/en-us/azure/cosmos-db/request-units
-- Change Feed: https://docs.microsoft.com/en-us/azure/cosmos-db/change-feed
-- Server Side: https://docs.microsoft.com/en-us/azure/cosmos-db/stored-procedures-triggers-udfs
 - Common Use-Cases: https://docs.microsoft.com/en-us/azure/cosmos-db/use-cases
 
 ## pydocumentdb SDK in-a-nutshell
