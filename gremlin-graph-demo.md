@@ -1,6 +1,12 @@
 # Azure CosmosDB - Graph/Gremlin API Demo
 
+
+
 ## Gremlin Concepts - Edges and Vertices, Query Language
+
+![tinkerpop-graph-globe](img/tinkerpop-graph-globe.png)
+
+![sample-graph](img/sample-graph.png)
 
 See https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-support
 
