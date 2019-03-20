@@ -8,8 +8,6 @@
 
 ![sample-graph](img/sample-graph.png)
 
-See https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-support
-
 ### Add a Vertex
 
 ```
@@ -25,6 +23,8 @@ See https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-support
 ```
 :> g.V('thomas.1').addE('knows').to(g.V('robin.1'))
 ```
+
+See https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-support
 
 ---
 
