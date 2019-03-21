@@ -30,8 +30,4 @@ See https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-support
 
 ## The Six Degrees of Kevin Bacon Demo
 
-See https://github.com/cjoakim/azure-cosmos-graph
-
-## World Travel Repo
-
-See https://github.com/cjoakim/azure-cosmosdb-travel
+See https://github.com/cjoakim/azure-cosmosdb-graph-node
