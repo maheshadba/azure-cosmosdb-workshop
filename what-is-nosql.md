@@ -11,6 +11,7 @@
 - **Less support for Transactions**
 - **Schemaless** or simplified schema
 - Often [JSON](https://en.wikipedia.org/wiki/JSON) document-oriented
+- Forrester: https://azure.microsoft.com/en-us/blog/microsoft-s-azure-cosmos-db-is-named-a-leader-in-the-forrester-wave-big-data-nosql/
 
 ## Reasons NoSQL Databases arose?
 
