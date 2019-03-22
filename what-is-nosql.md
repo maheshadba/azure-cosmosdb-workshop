@@ -1,5 +1,7 @@
 # What is a NoSQL Database?
 
+![nosql-history](img/nosql-history.png)
+
 ## Definition
 
 - [Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
