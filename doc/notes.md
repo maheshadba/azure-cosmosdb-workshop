@@ -1,15 +1,19 @@
 
 ## Agenda
+
   - https://github.com/cjoakim/azure-cosmosdb-workshop/blob/master/agenda.md
 
 ## What is NoSQL?
+
   - https://github.com/cjoakim/azure-cosmosdb-workshop/blob/master/what-is-nosql.md
 
 ## What is CosmosDB?
+
   - https://github.com/cjoakim/azure-cosmosdb-workshop/blob/master/what-is-cosmosdb.md 
   - Use-Cases
 
 ## Demo 1 - Azure Maps w/SQL API
+
   - https://github.com/cjoakim/azure-cosmosdb-workshop/blob/master/sql-api-demo.md
   - https://github.com/cjoakim/azure-web-services/blob/master/maps/readme_v2.md
 
@@ -18,7 +22,40 @@
 |dev|map_points|/pk|10,000|
 |dev|map_points_live|/pk|10,000|
 
+#### Start the Py Webserver
 
+```
+$ ~/github/azure-web-services/maps/python
+$ ./webserver.sh
+```
+
+#### Invoke the Maps API, Write to CosmosDB, Gen HTML
+
+Show the locations.csv file
+
+```
+cd ~/github/azure-web-services/maps/python
+sba
+./get_routes_v2.sh  ( gets 3 routes per locations.csv )
+```
+
+Visit http://localhost:3000/web/animated_path_1_2.html
+Or http://localhost:3000/web_bak/animated_path_1_2.html
+
+#### Query CosmosDB 
+
+Count the points on Route1: Microsoft Charlotte to Davidson College
+```
+SELECT VALUE COUNT(1) FROM c where c.pk = 1   (487)
+```
+
+Closest point to SouthPark mall along the route?
+```
+SELECT * FROM c WHERE ST_DISTANCE(c.location, {'type': 'Point', 'coordinates':[-80.832353, 35.151622]}) < 7092 
+and c.pk = 1
+```
+
+---
 
 ## Demo 2 - 6-Degrees of Kevin Bacon w/Graph API
 
