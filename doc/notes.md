@@ -37,6 +37,8 @@ sba
 ./get_routes_v2.sh  ( gets 3 routes per locations.csv )
 ```
 
+See a new Document in Azure Portal, with GeoJSON
+
 #### Start the Py Webserver
 
 ```
