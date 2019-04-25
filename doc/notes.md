@@ -22,16 +22,14 @@
 |dev|map_points|/pk|10,000|
 |dev|map_points_live|/pk|10,000|
 
-#### Start the Py Webserver
-
-```
-$ ~/github/azure-web-services/maps/python
-$ ./webserver.sh
-```
 
 #### Invoke the Maps API, Write to CosmosDB, Gen HTML
 
 Show the locations.csv file
+
+See Route API:
+https://docs.microsoft.com/en-us/rest/api/maps/route/getroutedirections
+
 
 ```
 cd ~/github/azure-web-services/maps/python
@@ -39,10 +37,19 @@ sba
 ./get_routes_v2.sh  ( gets 3 routes per locations.csv )
 ```
 
+#### Start the Py Webserver
+
+```
+$ ~/github/azure-web-services/maps/python
+$ ./webserver.sh
+```
+
 Visit http://localhost:3000/web/animated_path_1_2.html
 Or http://localhost:3000/web_bak/animated_path_1_2.html
 
 #### Query CosmosDB 
+
+See **Query Explorer** in Azure Portal
 
 Count the points on Route1: Microsoft Charlotte to Davidson College
 ```
