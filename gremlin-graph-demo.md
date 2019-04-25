@@ -2,10 +2,6 @@
 
 ## Gremlin Concepts - Edges and Vertices, Query Language
 
-![tinkerpop-graph-globe](img/tinkerpop-graph-globe.png)
-
----
-
 ![sample-graph](img/sample-graph.png)
 
 ### Add a Vertex
