@@ -42,8 +42,8 @@ See a new Document in Azure Portal, with GeoJSON
 #### Start the Py Webserver
 
 ```
-$ ~/github/azure-web-services/maps/python
-$ ./webserver.sh
+~/github/azure-web-services/maps/python
+./webserver.sh
 ```
 
 Visit http://localhost:3000/web/animated_path_1_2.html
@@ -68,4 +68,23 @@ and c.pk = 1
 
 ## Demo 2 - 6-Degrees of Kevin Bacon w/Graph API
 
+- https://github.com/cjoakim/azure-cosmosdb-workshop/blob/master/gremlin-graph-demo.md
 
+- https://github.com/cjoakim/azure-cosmosdb-graph-node
+
+- https://www.imdb.com/interfaces/
+
+#### Webserver
+
+In another Terminal
+```
+./webserver.sh
+```
+
+#### Queries
+
+```
+node main.js dev movies query path lori_singer charlotte_rampling
+node main.js dev movies query path lori_singer bradley_cooper
+node main.js dev movies query path lori_singer keanu_reeves
+```
