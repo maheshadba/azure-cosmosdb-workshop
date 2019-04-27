@@ -44,7 +44,5 @@
 - **CosmosDB Table API**
 
 ### Graph
-- Apache Giraph 
-- Neo4J
-- **Apache TinkerPop (Gremlin)**
+- **Apache TinkerPop (Gremlin)**, Neo4J, Apache Giraph
 
