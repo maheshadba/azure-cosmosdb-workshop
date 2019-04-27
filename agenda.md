@@ -18,6 +18,8 @@
 - [SQL API](sql-api-demo.md)
 - [Gremlin API](gremlin-graph-demo.md)
 
+---
+
 ### More Examples
 
 - [Port a MongoDB database to CosmosDB](mongo-to-cosmosdb-demo.md)
