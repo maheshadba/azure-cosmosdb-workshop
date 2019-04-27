@@ -1,4 +1,4 @@
-# Azure CosmosDB - Graph/Gremlin API Demo
+# Azure CosmosDB - Graph/Gremlin API
 
 ## Gremlin Concepts - Edges and Vertices, Query Language
 

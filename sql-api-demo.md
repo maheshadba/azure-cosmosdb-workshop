@@ -1,4 +1,4 @@
-# Azure CosmosDB - SQL API Demo
+# Azure CosmosDB - SQL API
 
 ## Concepts
 
