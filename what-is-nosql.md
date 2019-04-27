@@ -36,4 +36,4 @@
 - **CosmosDB Table API**, Redis, Riak, MemcacheD
 
 ### Graph
-- **Apache TinkerPop (Gremlin)**, Neo4J, Apache Giraph
+- **Apache TinkerPop (Gremlin API)**, Neo4J, Apache Giraph
