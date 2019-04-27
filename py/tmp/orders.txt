@@ -1,0 +1,1080 @@
+function: generate_csv
+order_number: 1 li_count: 4
+---
+1,2019/04/27,ccard,4125102907467,4.36,92.31
+1,1,667-2701,1,19.99,0.99,20.98
+1,2,4-93856L,1,5.99,0.29,6.28
+1,3,WMH-5661,2,5.99,0.59,12.57
+1,4,314IQF,1,49.99,2.49,52.48
+---
+{
+    "pk": 1,
+    "order_id": 1,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "4125102907467",
+    "tax": "4.36",
+    "total": "92.31",
+    "items": [
+        {
+            "order_id": 1,
+            "line_num": 1,
+            "sku": "667-2701",
+            "qty": 1,
+            "unit": 19.99,
+            "tax": "0.99",
+            "total": "20.98"
+        },
+        {
+            "order_id": 1,
+            "line_num": 2,
+            "sku": "4-93856L",
+            "qty": 1,
+            "unit": 5.99,
+            "tax": "0.29",
+            "total": "6.28"
+        },
+        {
+            "order_id": 1,
+            "line_num": 3,
+            "sku": "WMH-5661",
+            "qty": 2,
+            "unit": 5.99,
+            "tax": "0.59",
+            "total": "12.57"
+        },
+        {
+            "order_id": 1,
+            "line_num": 4,
+            "sku": "314IQF",
+            "qty": 1,
+            "unit": 49.99,
+            "tax": "2.49",
+            "total": "52.48"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 1,
+    "order_id": 1,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "4125102907467",
+    "tax": "4.36",
+    "total": "92.31",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 1,
+            "order_id": 1,
+            "line_num": 1,
+            "sku": "667-2701",
+            "qty": 1,
+            "unit": 19.99,
+            "tax": "0.99",
+            "total": "20.98"
+        },
+        {
+            "doctype": "item",
+            "pk": 1,
+            "order_id": 1,
+            "line_num": 2,
+            "sku": "4-93856L",
+            "qty": 1,
+            "unit": 5.99,
+            "tax": "0.29",
+            "total": "6.28"
+        },
+        {
+            "doctype": "item",
+            "pk": 1,
+            "order_id": 1,
+            "line_num": 3,
+            "sku": "WMH-5661",
+            "qty": 2,
+            "unit": 5.99,
+            "tax": "0.59",
+            "total": "12.57"
+        },
+        {
+            "doctype": "item",
+            "pk": 1,
+            "order_id": 1,
+            "line_num": 4,
+            "sku": "314IQF",
+            "qty": 1,
+            "unit": 49.99,
+            "tax": "2.49",
+            "total": "52.48"
+        }
+    ]
+}
+order_number: 2 li_count: 3
+---
+2,2019/04/27,ccard,4561478114003418901,8.47,178.40
+2,1,841-KNF,1,4.99,0.24,5.23
+2,2,769-VTW,3,49.99,7.49,157.46
+2,3,04O-EV6,3,4.99,0.74,15.71
+---
+{
+    "pk": 2,
+    "order_id": 2,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "4561478114003418901",
+    "tax": "8.47",
+    "total": "178.40",
+    "items": [
+        {
+            "order_id": 2,
+            "line_num": 1,
+            "sku": "841-KNF",
+            "qty": 1,
+            "unit": 4.99,
+            "tax": "0.24",
+            "total": "5.23"
+        },
+        {
+            "order_id": 2,
+            "line_num": 2,
+            "sku": "769-VTW",
+            "qty": 3,
+            "unit": 49.99,
+            "tax": "7.49",
+            "total": "157.46"
+        },
+        {
+            "order_id": 2,
+            "line_num": 3,
+            "sku": "04O-EV6",
+            "qty": 3,
+            "unit": 4.99,
+            "tax": "0.74",
+            "total": "15.71"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 2,
+    "order_id": 2,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "4561478114003418901",
+    "tax": "8.47",
+    "total": "178.40",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 2,
+            "order_id": 2,
+            "line_num": 1,
+            "sku": "841-KNF",
+            "qty": 1,
+            "unit": 4.99,
+            "tax": "0.24",
+            "total": "5.23"
+        },
+        {
+            "doctype": "item",
+            "pk": 2,
+            "order_id": 2,
+            "line_num": 2,
+            "sku": "769-VTW",
+            "qty": 3,
+            "unit": 49.99,
+            "tax": "7.49",
+            "total": "157.46"
+        },
+        {
+            "doctype": "item",
+            "pk": 2,
+            "order_id": 2,
+            "line_num": 3,
+            "sku": "04O-EV6",
+            "qty": 3,
+            "unit": 4.99,
+            "tax": "0.74",
+            "total": "15.71"
+        }
+    ]
+}
+order_number: 3 li_count: 4
+---
+3,2019/04/27,ccard,3529764503558394,3.76,79.67
+3,1,103-VKG,3,1.99,0.29,6.26
+3,2,KIC-765,3,5.99,0.89,18.86
+3,3,9FU1312,2,0.99,0.09,2.07
+3,4,412-CHT,1,49.99,2.49,52.48
+---
+{
+    "pk": 3,
+    "order_id": 3,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "3529764503558394",
+    "tax": "3.76",
+    "total": "79.67",
+    "items": [
+        {
+            "order_id": 3,
+            "line_num": 1,
+            "sku": "103-VKG",
+            "qty": 3,
+            "unit": 1.99,
+            "tax": "0.29",
+            "total": "6.26"
+        },
+        {
+            "order_id": 3,
+            "line_num": 2,
+            "sku": "KIC-765",
+            "qty": 3,
+            "unit": 5.99,
+            "tax": "0.89",
+            "total": "18.86"
+        },
+        {
+            "order_id": 3,
+            "line_num": 3,
+            "sku": "9FU1312",
+            "qty": 2,
+            "unit": 0.99,
+            "tax": "0.09",
+            "total": "2.07"
+        },
+        {
+            "order_id": 3,
+            "line_num": 4,
+            "sku": "412-CHT",
+            "qty": 1,
+            "unit": 49.99,
+            "tax": "2.49",
+            "total": "52.48"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 3,
+    "order_id": 3,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "3529764503558394",
+    "tax": "3.76",
+    "total": "79.67",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 3,
+            "order_id": 3,
+            "line_num": 1,
+            "sku": "103-VKG",
+            "qty": 3,
+            "unit": 1.99,
+            "tax": "0.29",
+            "total": "6.26"
+        },
+        {
+            "doctype": "item",
+            "pk": 3,
+            "order_id": 3,
+            "line_num": 2,
+            "sku": "KIC-765",
+            "qty": 3,
+            "unit": 5.99,
+            "tax": "0.89",
+            "total": "18.86"
+        },
+        {
+            "doctype": "item",
+            "pk": 3,
+            "order_id": 3,
+            "line_num": 3,
+            "sku": "9FU1312",
+            "qty": 2,
+            "unit": 0.99,
+            "tax": "0.09",
+            "total": "2.07"
+        },
+        {
+            "doctype": "item",
+            "pk": 3,
+            "order_id": 3,
+            "line_num": 4,
+            "sku": "412-CHT",
+            "qty": 1,
+            "unit": 49.99,
+            "tax": "2.49",
+            "total": "52.48"
+        }
+    ]
+}
+order_number: 4 li_count: 5
+---
+4,2019/04/27,ccard,347129381281517,302.20,6347.11
+4,1,815-140,1,0.99,0.04,1.03
+4,2,LJK-044,2,19.99,1.99,41.97
+4,3,6LBP356,3,999.99,149.99,3149.97
+4,4,B-301552,3,999.99,149.99,3149.97
+4,5,KEJ-3742,2,1.99,0.19,4.17
+---
+{
+    "pk": 4,
+    "order_id": 4,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "347129381281517",
+    "tax": "302.20",
+    "total": "6347.11",
+    "items": [
+        {
+            "order_id": 4,
+            "line_num": 1,
+            "sku": "815-140",
+            "qty": 1,
+            "unit": 0.99,
+            "tax": "0.04",
+            "total": "1.03"
+        },
+        {
+            "order_id": 4,
+            "line_num": 2,
+            "sku": "LJK-044",
+            "qty": 2,
+            "unit": 19.99,
+            "tax": "1.99",
+            "total": "41.97"
+        },
+        {
+            "order_id": 4,
+            "line_num": 3,
+            "sku": "6LBP356",
+            "qty": 3,
+            "unit": 999.99,
+            "tax": "149.99",
+            "total": "3149.97"
+        },
+        {
+            "order_id": 4,
+            "line_num": 4,
+            "sku": "B-301552",
+            "qty": 3,
+            "unit": 999.99,
+            "tax": "149.99",
+            "total": "3149.97"
+        },
+        {
+            "order_id": 4,
+            "line_num": 5,
+            "sku": "KEJ-3742",
+            "qty": 2,
+            "unit": 1.99,
+            "tax": "0.19",
+            "total": "4.17"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 4,
+    "order_id": 4,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "347129381281517",
+    "tax": "302.20",
+    "total": "6347.11",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 4,
+            "order_id": 4,
+            "line_num": 1,
+            "sku": "815-140",
+            "qty": 1,
+            "unit": 0.99,
+            "tax": "0.04",
+            "total": "1.03"
+        },
+        {
+            "doctype": "item",
+            "pk": 4,
+            "order_id": 4,
+            "line_num": 2,
+            "sku": "LJK-044",
+            "qty": 2,
+            "unit": 19.99,
+            "tax": "1.99",
+            "total": "41.97"
+        },
+        {
+            "doctype": "item",
+            "pk": 4,
+            "order_id": 4,
+            "line_num": 3,
+            "sku": "6LBP356",
+            "qty": 3,
+            "unit": 999.99,
+            "tax": "149.99",
+            "total": "3149.97"
+        },
+        {
+            "doctype": "item",
+            "pk": 4,
+            "order_id": 4,
+            "line_num": 4,
+            "sku": "B-301552",
+            "qty": 3,
+            "unit": 999.99,
+            "tax": "149.99",
+            "total": "3149.97"
+        },
+        {
+            "doctype": "item",
+            "pk": 4,
+            "order_id": 4,
+            "line_num": 5,
+            "sku": "KEJ-3742",
+            "qty": 2,
+            "unit": 1.99,
+            "tax": "0.19",
+            "total": "4.17"
+        }
+    ]
+}
+order_number: 5 li_count: 3
+---
+5,2019/04/27,ccard,346711432909872,3.27,69.18
+5,1,KOU-263,3,9.99,1.49,31.46
+5,2,48WY017,3,5.99,0.89,18.86
+5,3,JHP-1299,3,5.99,0.89,18.86
+---
+{
+    "pk": 5,
+    "order_id": 5,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "346711432909872",
+    "tax": "3.27",
+    "total": "69.18",
+    "items": [
+        {
+            "order_id": 5,
+            "line_num": 1,
+            "sku": "KOU-263",
+            "qty": 3,
+            "unit": 9.99,
+            "tax": "1.49",
+            "total": "31.46"
+        },
+        {
+            "order_id": 5,
+            "line_num": 2,
+            "sku": "48WY017",
+            "qty": 3,
+            "unit": 5.99,
+            "tax": "0.89",
+            "total": "18.86"
+        },
+        {
+            "order_id": 5,
+            "line_num": 3,
+            "sku": "JHP-1299",
+            "qty": 3,
+            "unit": 5.99,
+            "tax": "0.89",
+            "total": "18.86"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 5,
+    "order_id": 5,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "346711432909872",
+    "tax": "3.27",
+    "total": "69.18",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 5,
+            "order_id": 5,
+            "line_num": 1,
+            "sku": "KOU-263",
+            "qty": 3,
+            "unit": 9.99,
+            "tax": "1.49",
+            "total": "31.46"
+        },
+        {
+            "doctype": "item",
+            "pk": 5,
+            "order_id": 5,
+            "line_num": 2,
+            "sku": "48WY017",
+            "qty": 3,
+            "unit": 5.99,
+            "tax": "0.89",
+            "total": "18.86"
+        },
+        {
+            "doctype": "item",
+            "pk": 5,
+            "order_id": 5,
+            "line_num": 3,
+            "sku": "JHP-1299",
+            "qty": 3,
+            "unit": 5.99,
+            "tax": "0.89",
+            "total": "18.86"
+        }
+    ]
+}
+order_number: 6 li_count: 7
+---
+6,2019/04/27,ccard,4441210731497073,3.48,74.35
+6,1,E89-31D,2,5.99,0.59,12.57
+6,2,WIZ-259,2,1.99,0.19,4.17
+6,3,0JZ-863,3,2.99,0.44,9.41
+6,4,852-8KQ,2,5.99,0.59,12.57
+6,5,3BR3317,1,19.99,0.99,20.98
+6,6,59-WB51,1,5.99,0.29,6.28
+6,7,0O-C4197,2,3.99,0.39,8.37
+---
+{
+    "pk": 6,
+    "order_id": 6,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "4441210731497073",
+    "tax": "3.48",
+    "total": "74.35",
+    "items": [
+        {
+            "order_id": 6,
+            "line_num": 1,
+            "sku": "E89-31D",
+            "qty": 2,
+            "unit": 5.99,
+            "tax": "0.59",
+            "total": "12.57"
+        },
+        {
+            "order_id": 6,
+            "line_num": 2,
+            "sku": "WIZ-259",
+            "qty": 2,
+            "unit": 1.99,
+            "tax": "0.19",
+            "total": "4.17"
+        },
+        {
+            "order_id": 6,
+            "line_num": 3,
+            "sku": "0JZ-863",
+            "qty": 3,
+            "unit": 2.99,
+            "tax": "0.44",
+            "total": "9.41"
+        },
+        {
+            "order_id": 6,
+            "line_num": 4,
+            "sku": "852-8KQ",
+            "qty": 2,
+            "unit": 5.99,
+            "tax": "0.59",
+            "total": "12.57"
+        },
+        {
+            "order_id": 6,
+            "line_num": 5,
+            "sku": "3BR3317",
+            "qty": 1,
+            "unit": 19.99,
+            "tax": "0.99",
+            "total": "20.98"
+        },
+        {
+            "order_id": 6,
+            "line_num": 6,
+            "sku": "59-WB51",
+            "qty": 1,
+            "unit": 5.99,
+            "tax": "0.29",
+            "total": "6.28"
+        },
+        {
+            "order_id": 6,
+            "line_num": 7,
+            "sku": "0O-C4197",
+            "qty": 2,
+            "unit": 3.99,
+            "tax": "0.39",
+            "total": "8.37"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 6,
+    "order_id": 6,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "4441210731497073",
+    "tax": "3.48",
+    "total": "74.35",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 1,
+            "sku": "E89-31D",
+            "qty": 2,
+            "unit": 5.99,
+            "tax": "0.59",
+            "total": "12.57"
+        },
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 2,
+            "sku": "WIZ-259",
+            "qty": 2,
+            "unit": 1.99,
+            "tax": "0.19",
+            "total": "4.17"
+        },
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 3,
+            "sku": "0JZ-863",
+            "qty": 3,
+            "unit": 2.99,
+            "tax": "0.44",
+            "total": "9.41"
+        },
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 4,
+            "sku": "852-8KQ",
+            "qty": 2,
+            "unit": 5.99,
+            "tax": "0.59",
+            "total": "12.57"
+        },
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 5,
+            "sku": "3BR3317",
+            "qty": 1,
+            "unit": 19.99,
+            "tax": "0.99",
+            "total": "20.98"
+        },
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 6,
+            "sku": "59-WB51",
+            "qty": 1,
+            "unit": 5.99,
+            "tax": "0.29",
+            "total": "6.28"
+        },
+        {
+            "doctype": "item",
+            "pk": 6,
+            "order_id": 6,
+            "line_num": 7,
+            "sku": "0O-C4197",
+            "qty": 2,
+            "unit": 3.99,
+            "tax": "0.39",
+            "total": "8.37"
+        }
+    ]
+}
+order_number: 7 li_count: 7
+---
+7,2019/04/27,ccard,3576314704127110,10.38,219.23
+7,1,792AG,3,3.99,0.59,12.56
+7,2,56QN141,1,19.99,0.99,20.98
+7,3,CTM1369,1,4.99,0.24,5.23
+7,4,1-3495F,2,2.99,0.29,6.27
+7,5,2JU2994,2,4.99,0.49,10.47
+7,6,20-41716,3,49.99,7.49,157.46
+7,7,763-VNM,3,1.99,0.29,6.26
+---
+{
+    "pk": 7,
+    "order_id": 7,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "3576314704127110",
+    "tax": "10.38",
+    "total": "219.23",
+    "items": [
+        {
+            "order_id": 7,
+            "line_num": 1,
+            "sku": "792AG",
+            "qty": 3,
+            "unit": 3.99,
+            "tax": "0.59",
+            "total": "12.56"
+        },
+        {
+            "order_id": 7,
+            "line_num": 2,
+            "sku": "56QN141",
+            "qty": 1,
+            "unit": 19.99,
+            "tax": "0.99",
+            "total": "20.98"
+        },
+        {
+            "order_id": 7,
+            "line_num": 3,
+            "sku": "CTM1369",
+            "qty": 1,
+            "unit": 4.99,
+            "tax": "0.24",
+            "total": "5.23"
+        },
+        {
+            "order_id": 7,
+            "line_num": 4,
+            "sku": "1-3495F",
+            "qty": 2,
+            "unit": 2.99,
+            "tax": "0.29",
+            "total": "6.27"
+        },
+        {
+            "order_id": 7,
+            "line_num": 5,
+            "sku": "2JU2994",
+            "qty": 2,
+            "unit": 4.99,
+            "tax": "0.49",
+            "total": "10.47"
+        },
+        {
+            "order_id": 7,
+            "line_num": 6,
+            "sku": "20-41716",
+            "qty": 3,
+            "unit": 49.99,
+            "tax": "7.49",
+            "total": "157.46"
+        },
+        {
+            "order_id": 7,
+            "line_num": 7,
+            "sku": "763-VNM",
+            "qty": 3,
+            "unit": 1.99,
+            "tax": "0.29",
+            "total": "6.26"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 7,
+    "order_id": 7,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "3576314704127110",
+    "tax": "10.38",
+    "total": "219.23",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 1,
+            "sku": "792AG",
+            "qty": 3,
+            "unit": 3.99,
+            "tax": "0.59",
+            "total": "12.56"
+        },
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 2,
+            "sku": "56QN141",
+            "qty": 1,
+            "unit": 19.99,
+            "tax": "0.99",
+            "total": "20.98"
+        },
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 3,
+            "sku": "CTM1369",
+            "qty": 1,
+            "unit": 4.99,
+            "tax": "0.24",
+            "total": "5.23"
+        },
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 4,
+            "sku": "1-3495F",
+            "qty": 2,
+            "unit": 2.99,
+            "tax": "0.29",
+            "total": "6.27"
+        },
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 5,
+            "sku": "2JU2994",
+            "qty": 2,
+            "unit": 4.99,
+            "tax": "0.49",
+            "total": "10.47"
+        },
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 6,
+            "sku": "20-41716",
+            "qty": 3,
+            "unit": 49.99,
+            "tax": "7.49",
+            "total": "157.46"
+        },
+        {
+            "doctype": "item",
+            "pk": 7,
+            "order_id": 7,
+            "line_num": 7,
+            "sku": "763-VNM",
+            "qty": 3,
+            "unit": 1.99,
+            "tax": "0.29",
+            "total": "6.26"
+        }
+    ]
+}
+order_number: 8 li_count: 2
+---
+8,2019/04/27,ccard,377743182720649,1.63,34.59
+8,1,834DB,3,9.99,1.49,31.46
+8,2,IDG-8746,1,2.99,0.14,3.13
+---
+{
+    "pk": 8,
+    "order_id": 8,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "377743182720649",
+    "tax": "1.63",
+    "total": "34.59",
+    "items": [
+        {
+            "order_id": 8,
+            "line_num": 1,
+            "sku": "834DB",
+            "qty": 3,
+            "unit": 9.99,
+            "tax": "1.49",
+            "total": "31.46"
+        },
+        {
+            "order_id": 8,
+            "line_num": 2,
+            "sku": "IDG-8746",
+            "qty": 1,
+            "unit": 2.99,
+            "tax": "0.14",
+            "total": "3.13"
+        }
+    ]
+}
+---
+
+{
+    "doctype": "order",
+    "pk": 8,
+    "order_id": 8,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "377743182720649",
+    "tax": "1.63",
+    "total": "34.59",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 8,
+            "order_id": 8,
+            "line_num": 1,
+            "sku": "834DB",
+            "qty": 3,
+            "unit": 9.99,
+            "tax": "1.49",
+            "total": "31.46"
+        },
+        {
+            "doctype": "item",
+            "pk": 8,
+            "order_id": 8,
+            "line_num": 2,
+            "sku": "IDG-8746",
+            "qty": 1,
+            "unit": 2.99,
+            "tax": "0.14",
+            "total": "3.13"
+        }
+    ]
+}
+order_number: 9 li_count: 1
+---
+9,2019/04/27,ccard,5204500681010163,0.74,15.71
+9,1,QB-8144,3,4.99,0.74,15.71
+---
+{
+    "pk": 9,
+    "order_id": 9,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "5204500681010163",
+    "tax": "0.74",
+    "total": "15.71",
+    "items": [
+        {
+            "order_id": 9,
+            "line_num": 1,
+            "sku": "QB-8144",
+            "qty": 3,
+            "unit": 4.99,
+            "tax": "0.74",
+            "total": "15.71"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 9,
+    "order_id": 9,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "5204500681010163",
+    "tax": "0.74",
+    "total": "15.71",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 9,
+            "order_id": 9,
+            "line_num": 1,
+            "sku": "QB-8144",
+            "qty": 3,
+            "unit": 4.99,
+            "tax": "0.74",
+            "total": "15.71"
+        }
+    ]
+}
+order_number: 10 li_count: 2
+---
+10,2019/04/27,ccard,180042924228665,0.43,9.40
+10,1,03-IO00,2,2.99,0.29,6.27
+10,2,9-I7041,1,2.99,0.14,3.13
+---
+{
+    "pk": 10,
+    "order_id": 10,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "180042924228665",
+    "tax": "0.43",
+    "total": "9.40",
+    "items": [
+        {
+            "order_id": 10,
+            "line_num": 1,
+            "sku": "03-IO00",
+            "qty": 2,
+            "unit": 2.99,
+            "tax": "0.29",
+            "total": "6.27"
+        },
+        {
+            "order_id": 10,
+            "line_num": 2,
+            "sku": "9-I7041",
+            "qty": 1,
+            "unit": 2.99,
+            "tax": "0.14",
+            "total": "3.13"
+        }
+    ]
+}
+---
+{
+    "doctype": "order",
+    "pk": 10,
+    "order_id": 10,
+    "date": "2019/04/27",
+    "pmt_type": "ccard",
+    "ccard": "180042924228665",
+    "tax": "0.43",
+    "total": "9.40",
+    "items": [
+        {
+            "doctype": "item",
+            "pk": 10,
+            "order_id": 10,
+            "line_num": 1,
+            "sku": "03-IO00",
+            "qty": 2,
+            "unit": 2.99,
+            "tax": "0.29",
+            "total": "6.27"
+        },
+        {
+            "doctype": "item",
+            "pk": 10,
+            "order_id": 10,
+            "line_num": 2,
+            "sku": "9-I7041",
+            "qty": 1,
+            "unit": 2.99,
+            "tax": "0.14",
+            "total": "3.13"
+        }
+    ]
+}

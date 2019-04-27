@@ -26,7 +26,6 @@ class Order:
         for line_number in range(1, li_count + 1):
             self.generate_line_item(line_number)
 
-
     def generate_line_item(self, line_number):
         item = LineItem(self.id, line_number, self.fake)
         self.tax = self.tax + item.tax
@@ -43,6 +42,24 @@ class Order:
         print(self.as_csv())
         for item in self.line_items:
             print(item.as_csv())
+
+    def as_dict(self, doctype=False):
+        d = dict()
+        items = list()
+        for item in self.line_items:
+            items.append(item.as_dict(doctype))
+        if doctype:
+            d['doctype'] = 'order'
+        d['pk'] = self.id
+        d['order_id'] = self.id
+        d['date'] = self.date
+        d['pmt_type'] = self.payment_type
+        d['ccard'] = self.credit_card
+        d['tax'] = str(self.tax)
+        d['total'] = str(self.total)
+        d['items'] = items
+        return d
+
 
 class LineItem:
 
@@ -67,6 +84,20 @@ class LineItem:
         return '{},{},{},{},{},{},{}'.format(
             self.order_id, self.id, self.sku, self.quantity, 
             self.unit_price, self.tax, self.total)
+
+    def as_dict(self, doctype=False):
+        d = dict()
+        if doctype:
+            d['doctype'] = 'item'
+            d['pk'] = self.order_id
+        d['order_id'] = self.order_id
+        d['line_num'] = self.id
+        d['sku'] = self.sku
+        d['qty'] = self.quantity
+        d['unit'] = self.unit_price
+        d['tax'] = str(self.tax)
+        d['total'] = str(self.total)
+        return d
 
 class Main:
 
@@ -112,6 +143,10 @@ class Main:
         order = Order(order_number, li_count)
         self.orders.append(order)
         order.display()
+        print('---')
+        print(json.dumps(order.as_dict(), indent=4))
+        print('---')
+        print(json.dumps(order.as_dict(True), indent=4))
 
     def generate_csv_orig(self):
         date = arrow.utcnow().format('YYYY-MM-DD')
