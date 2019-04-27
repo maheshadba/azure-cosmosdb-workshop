@@ -27,22 +27,13 @@
 ## Example NoSQL Databases
 
 ### Column
-- **Cassandra**
-- HBase
+- **Cassandra**, HBase
 
 ### Document
-- Apache CouchDB
-- Couchbase
-- **CosmosDB**
-- **MongoDB**
+- **CosmosDB**, **MongoDB**, Couchbase, Apache CouchDB
 
 ### Key-value
-- Dynamo
-- MemcacheDB
-- Redis
-- Riak
-- **CosmosDB Table API**
+- **CosmosDB Table API**, Redis, Riak, MemcacheD
 
 ### Graph
 - **Apache TinkerPop (Gremlin)**, Neo4J, Apache Giraph
-- <span style="color:red">**Apache TinkerPop (Gremlin)**</span>, Neo4J, Apache Giraph
