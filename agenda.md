@@ -17,6 +17,7 @@
 
 - [SQL API](sql-api-demo.md)
 - [Gremlin API](gremlin-graph-demo.md)
+- [IoT with PaaS](https://github.com/cjoakim/azure-cosmosdb-iot)
 
 ---
 
