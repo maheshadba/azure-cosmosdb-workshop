@@ -16,7 +16,7 @@
 ### Examples
 
 - [SQL API](sql-api-demo.md)
-- [Gremlin API - The Six Degrees of Kevin Bacon](gremlin-graph-demo.md)
+- [Gremlin API](gremlin-graph-demo.md)
 
 ### More Examples
 
