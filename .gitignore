@@ -1,5 +1,6 @@
 # cj
 
+.vscode/
 py/bin/
 py/include/
 py/lib/
